@@ -1,10 +1,11 @@
 # Blin Bot Documentation
 
-Официальная документация Discord-бота Blin.
+Официальная документация Discord-бота **Blin**.
 
-## Локальный запуск
+## Сайт
 
-Установка:
+- [Главная страница](https://nicerich3109.github.io/Blin-bot-documentation/)
+- [Политика конфиденциальности](https://nicerich3109.github.io/Blin-bot-documentation/privacy-policy.html)
+- [Условия использования](https://nicerich3109.github.io/Blin-bot-documentation/terms-of-service.html)
 
-```bash
-pip install -r requirements.txt
+Сайт собран как обычный статический HTML/CSS и публикуется напрямую из ветки `main` через GitHub Pages.
