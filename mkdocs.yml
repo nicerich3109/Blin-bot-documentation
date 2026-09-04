@@ -3,7 +3,6 @@ site_description: Официальная документация Discord-бот
 site_author: Blin Bot Team
 site_url: https://nicerich3109.github.io/Blin-bot-documentation/
 repo_name: nicerich3109/Blin-bot-documentation
-repo_url: https://github.com/nicerich3109/Blin-bot-documentation
 edit_uri: ""
 
 theme:
@@ -36,13 +35,6 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/nicerich3109/Blin-bot-documentation
-      name: GitHub
-  generator: false
 
 nav:
   - Главная: index.md
