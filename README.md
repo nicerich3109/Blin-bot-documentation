@@ -1,2 +1,10 @@
-# Blin-bot-documentation
-Этот репозиторий предназначен для документации Блин бота
+# Blin Bot Documentation
+
+Официальная документация Discord-бота Blin.
+
+## Локальный запуск
+
+Установка:
+
+```bash
+pip install -r requirements.txt
