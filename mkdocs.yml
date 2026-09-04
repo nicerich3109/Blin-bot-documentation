@@ -1,0 +1,42 @@
+site_name: Blin Bot Documentation
+site_url: https://nicerich3109.github.io/Blin-bot-documentation/
+
+repo_name: nicerich3109/Blin-bot-documentation
+repo_url: https://github.com/nicerich3109/Blin-bot-documentation
+
+theme:
+  name: material
+  language: ru
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Темная тема
+
+
+nav:
+  - Главная: index.md
+  - Политика конфиденциальности: privacy-policy.md
+  - Условия использования: terms-of-service.md
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
