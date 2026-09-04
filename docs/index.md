@@ -7,7 +7,6 @@
 <div class="blin-actions">
 <a class="md-button md-button--primary" href="privacy-policy/">Политика конфиденциальности</a>
 <a class="md-button" href="terms-of-service/">Условия использования</a>
-<a class="md-button" href="https://github.com/nicerich3109/Blin-bot-documentation">GitHub</a>
 </div>
 
 <p class="blin-note">Документация поддерживается командой Blin Bot.</p>
@@ -23,4 +22,4 @@ Blin — Discord-бот для автоматизации и управлени�
 
 ## Нужна помощь?
 
-Если вы нашли ошибку в документации или хотите сообщить о проблеме проекта, создайте issue в репозитории GitHub.
+Если вы нашли ошибку в документации или хотите сообщить о проблеме проекта, можете связаться через Discord: darkknighttt - Email: timonka.blin@mail.ru
