@@ -1,42 +1,63 @@
-site_name: Blin Bot Documentation
+site_name: Blin Bot
+site_description: Официальная документация Discord-бота Blin
+site_author: Blin Bot Team
 site_url: https://nicerich3109.github.io/Blin-bot-documentation/
-
 repo_name: nicerich3109/Blin-bot-documentation
 repo_url: https://github.com/nicerich3109/Blin-bot-documentation
+edit_uri: ""
 
 theme:
   name: material
   language: ru
-
+  font: false
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
     - search.highlight
-
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/weather-sunny
-        name: Светлая тема
-
+        name: Тёмная тема
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/weather-night
-        name: Темная тема
+        name: Светлая тема
+  icon:
+    logo: material/robot
+    repo: fontawesome/brands/github
 
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nicerich3109/Blin-bot-documentation
+      name: GitHub
+  generator: false
 
 nav:
   - Главная: index.md
-  - Политика конфиденциальности: privacy-policy.md
-  - Условия использования: terms-of-service.md
-
+  - Документы:
+      - Политика конфиденциальности: privacy-policy.md
+      - Условия использования: terms-of-service.md
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - tables
   - toc:
       permalink: true
-  - tables
-  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
